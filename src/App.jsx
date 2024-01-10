@@ -7,7 +7,7 @@ function App() {
 
   const [listPokemon, setListPokemon] = useState([])
   const [results, setResult] = useState([])
-  let arr = []
+  let arr = []   
 
     useEffect(() => { 
     fetch('https://pokeapi.co/api/v2/pokemon')
